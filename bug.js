@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a property of a document snapshot before the promise resolves. This is common when fetching data asynchronously. For example, if you have a query that retrieves multiple documents, attempting to access data within the callback before the query completes will lead to undefined values or errors.
