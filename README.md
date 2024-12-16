@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Firebase when dealing with asynchronous operations. The `bug.js` file shows how accessing document snapshot properties before the promise resolves causes undefined values or errors. The `bugSolution.js` file provides the solution using `.then()` or `async/await` to handle the asynchronous nature of Firebase operations properly.
